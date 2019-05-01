@@ -1,3 +1,5 @@
 *.zip
 release/
 build/
+.idea
+node_modules

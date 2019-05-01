@@ -1,20 +1,20 @@
 class QueueLike {
-    constructor() {
-        this.queue = []
-        this.front = 0
-    }
+  constructor() {
+    this.queue = []
+    this.front = 0
+  }
 
-    enqueue(obj) {
-        this.queue.push(obj)
-    }
+  enqueue(obj) {
+    this.queue.push(obj)
+  }
 
-    dequeue() {
-        return this.queue[++this.front]
-    }
+  dequeue() {
+    return this.queue[++this.front]
+  }
 
-    pop() {
-        return this.queue.pop()
-    }
+  pop() {
+    return this.queue.pop()
+  }
 }
 
 module.exports = QueueLike
